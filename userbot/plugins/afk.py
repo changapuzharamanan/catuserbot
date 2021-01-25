@@ -108,13 +108,13 @@ async def on_afk(event):
         msg = None
         if link and reason:
             message_to_reply = (
-                f"**I am AFK .\n\nAFK Since {endtime}\nReason : **{reason}"
+                f"**My Master is very busy now and  can't talk to you now.\n\nWhere is he? : Thats top secret 🙈,He said not to reveal it except to his GF💞 so I can't Say to You😢 .\n\nWho are you? :Iam his Userbot.\n\nWhy you are messaging me? :Because you messaged my Master and disturbed him , So I Messaged to disturb you:).\n\n\nI will Back Soon😉\nReason Given By Master : **{reason}"
             )
         elif reason:
-            message_to_reply = f"`I am AFK .\n\nAFK Since {endtime}\nReason : {reason}`"
+            message_to_reply = f"`My Master is very busy now and  can't talk to you now.\n\nWhere is he? : Thats top secret 🙈,He said not to reveal it except to his GF💞 so I can't Say to You😢 .\n\nWho are you? :Iam his Userbot.\n\nWhy you are messaging me? :Because you messaged my Master and disturbed him , So I Messaged to disturb you:).\n\n\nI will Back Soon😉\nReason Given By Master : {reason}`"
         else:
             message_to_reply = (
-                f"`I am AFK .\n\nAFK Since {endtime}\nReason : Not Mentioned ( ಠ ʖ̯ ಠ)`"
+                f"`My Master is very busy now and  can't talk to you now.\n\nWhere is he? : Thats top secret 🙈,He said not to reveal it except to his GF💞 so I can't Say to You😢 .\n\nWho are you? :Iam his Userbot.\n\nWhy you are messaging me? :Because you messaged my Master and disturbed him , So I Messaged to disturb you:).\n\n\nI will Back Soon😉`"
             )
         if event.chat_id not in Config.UB_BLACK_LIST_CHAT:
             msg = await event.reply(message_to_reply)
